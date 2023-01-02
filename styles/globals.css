@@ -1,0 +1,61 @@
+
+
+@font-face {
+  font-family: "ＭＳ Ｐゴシック";
+  src: url(../public/MSGOTHIC.TTF) format("truetype")
+}
+
+* {
+  font-family: "ＭＳ Ｐゴシック"!important;
+  font-weight: 1!important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 1.009em !important;
+  line-height: 13px;
+  vertical-align: baseline !important;
+  -print-color-adjust: exact !important;
+  font-weight: 1!important;
+  -webkit-text-size-adjust: none!important;
+}
+html {
+  margin-top: 10px;
+  margin-left: 3vw
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer
+}
+
+@media (min-width:1700px) {
+  html {
+    display: flex;
+    margin-top: 1px
+  }
+}
+
+@media (max-width:614px) {
+  body {
+    /* margin-top: 10px; */
+    width: 100vw;
+    /* font-size: 18px */
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10%;
+  height: 4px
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  width: 10px;
+  height: 1px
+}
